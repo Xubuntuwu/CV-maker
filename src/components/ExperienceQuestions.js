@@ -124,11 +124,11 @@ class ExperienceQuestions extends React.Component{
                                     </li>
                                     <li>
                                         <label htmlFor="workdate">Date of working here: </label>
-                                        <input type="text" id="workdate" value={this.state.experiencearray[i].schooldate} onChange={this.handleChange}></input>
+                                        <input type="text" id="workdate" value={this.state.experiencearray[i].workdate} onChange={this.handleChange}></input>
                                     </li>
                                     <li>
                                         <label htmlFor="summary">Date of working here: </label>
-                                        <textarea id="summary" value={this.state.experiencearray[i].schooldate} onChange={this.handleChange}/>
+                                        <textarea id="summary" value={this.state.experiencearray[i].summary} onChange={this.handleChange}/>
                                     </li>
                                     <label>Tasks: </label>
                                     <ul id="maintasks" className="taskSlot">
