@@ -253,7 +253,8 @@ h3{
   text-align: center;
   align-self: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 400;
+  font-size: larger;
   border-bottom: 2px solid lightgray;
   padding-bottom: 1rem;
   width: 70%;

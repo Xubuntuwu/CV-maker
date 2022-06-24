@@ -1,0 +1,64 @@
+/* <div id="cvcontact">
+                <h3>Contact</h3>
+                <ul>
+                    <li id="cvphone" key={this.generateKey('phone')}>{this.props.phone}</li>
+                    <li id="cvmail" key={this.generateKey('mail')}>{this.props.mail}</li>
+                    <li id="cvloc" key={this.generateKey('loc')} >{this.props.location}</li>
+                    {this.props.linkedin!==''? <li id="cvlinkedin" key={this.generateKey('linkedin')}>{this.props.linkedin}</li> : ''}
+                </ul>
+            </div> */
+
+*{
+    box-sizing: border-box;
+}
+#cvcontact ul{
+    line-height: 35px;
+    margin-top: 0;
+    font-family: serif;
+    font-style: italic;
+}
+
+#cvphone{
+
+}
+#cvphone::before{
+    display: inline-block;
+    content: url('../assets/phone-svgrepo-com.svg');
+    filter: opacity(70%);
+    height: 100%;
+    width: 1rem;
+    margin-right: 10px;
+}
+#cvmail{
+
+}
+#cvmail::before{
+    display: inline-block;
+    content: url('../assets/mail-svgrepo-com.svg');
+    filter: opacity(70%);
+    height: 100%;
+    width: 1rem;
+    margin-right: 10px;
+}
+#cvloc{
+
+}
+#cvloc::before{
+    display: inline-block;
+    content: url('../assets/location-svgrepo-com.svg');
+    filter: opacity(70%);
+    height: 100%;
+    width: 1rem;
+    margin-right: 10px;
+}
+#cvlinkedin{
+
+}
+#cvlinkedin::before{
+    display: inline-block;
+    content: url('../assets/linkedin-svgrepo-com.svg');
+    filter: opacity(70%);
+    height: 100%;
+    width: 1rem;
+    margin-right: 10px;
+}
