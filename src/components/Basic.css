@@ -13,6 +13,8 @@ div#basicinfo{
     font-weight: 600;
     color: black;
     background-color: lightskyblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #cvname span{
     background-color: white;
@@ -21,7 +23,9 @@ div#basicinfo{
 #cvtitle{
     text-align: center;
     font-size: larger;
-    font-weight: bold;
+    margin: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
     color: darkgray;
 }
 p{

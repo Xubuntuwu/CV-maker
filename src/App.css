@@ -211,6 +211,10 @@
   grid-row: 2/-1;
   grid-column: 1/2;
   border-right: 2px solid darkgray;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 5%;
 }
 #leftcolumn div, #cvexperience, #rightcolumn div{
   display: flex;
@@ -246,7 +250,7 @@
 
 }
 #cvskills ul{
-  list-style:disc;
+  list-style: square;
 }
 
 h3{
