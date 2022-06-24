@@ -18,9 +18,9 @@
     font-style: italic;
 }
 
-#cvphone{
+/* #cvphone{
 
-}
+} */
 #cvphone::before{
     display: inline-block;
     content: url('../assets/phone-svgrepo-com.svg');
@@ -29,9 +29,9 @@
     width: 1rem;
     margin-right: 10px;
 }
-#cvmail{
+/* #cvmail{
 
-}
+} */
 #cvmail::before{
     display: inline-block;
     content: url('../assets/mail-svgrepo-com.svg');
@@ -40,9 +40,9 @@
     width: 1rem;
     margin-right: 10px;
 }
-#cvloc{
+/* #cvloc{
 
-}
+} */
 #cvloc::before{
     display: inline-block;
     content: url('../assets/location-svgrepo-com.svg');
@@ -51,9 +51,9 @@
     width: 1rem;
     margin-right: 10px;
 }
-#cvlinkedin{
+/* #cvlinkedin{
 
-}
+} */
 #cvlinkedin::before{
     display: inline-block;
     content: url('../assets/linkedin-svgrepo-com.svg');

@@ -201,7 +201,7 @@
   aspect-ratio: 2480/ 3508;
   width: 45%;
   background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: grid;
   grid-auto-columns: 1fr 1.5fr;
   grid-template-rows: calc(0.05 * 3508px) 1fr;

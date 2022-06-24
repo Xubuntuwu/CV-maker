@@ -1,0 +1,25 @@
+
+/* #cveducation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#cveducation ul{
+    width: fit-content;
+    margin-left: 0;
+    padding-left: 20%;
+}
+
+#cvdegree{
+    color: darkgray;
+    font-weight: bold;
+}
+
+#cvschool{
+    font-style: italic;
+}
+
+#cvschooldate{
+
+}
