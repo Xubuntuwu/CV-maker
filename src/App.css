@@ -193,6 +193,7 @@ main{
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: start;
   font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
 }
 .App ul{
@@ -206,9 +207,9 @@ main{
 
 /* A4: 2480 x 3508 pixels */
 .CV{
-  width: 53%;
-  /* height: calc(688px * 3508 / 2480); */
-  /* height: fit-content; */
+  width: 53vw;
+  height: fit-content;
+  min-height: calc(53vw * 3508 / 2480);
   aspect-ratio: 2480/ 3508;
   background-color: white;
   /* border: 1px solid black; */

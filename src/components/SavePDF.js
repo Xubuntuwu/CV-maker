@@ -42,7 +42,7 @@ import html2canvas from 'html2canvas';
 
   const generatePdf =() => {
     const data = document.getElementsByClassName('CV')[0];
-    html2canvas(data, { allowTaint: true, scale: 4 }).then(canvas => {
+    html2canvas(data, { allowTaint: true, scale: 3 }).then(canvas => {
      let HTML_Width = canvas.width;
      let HTML_Height = canvas.height;
      let top_left_margin = 15;
