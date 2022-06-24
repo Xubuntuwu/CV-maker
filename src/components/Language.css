@@ -1,0 +1,17 @@
+
+#cvlanguage ul{
+    width: fit-content;
+    margin-left: 0;
+    padding-left: 20%;
+    line-height: 25px;
+
+}
+
+.cvlanguage{
+    color: rgb(133, 133, 133);
+    font-weight: bold;
+}
+
+.cvproficiency{
+
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import './Language.css';
 
 class Language extends React.Component{
     constructor(props){
@@ -12,8 +13,8 @@ class Language extends React.Component{
             {this.props.languagearray.map(function(object, i){
                 return(
                     <ul key={`languagesection ${i}`}>
-                        <li>{this.props.languagearray[i].language}</li>
-                        <li>{this.props.languagearray[i].proficiency}</li>
+                        <li className="cvlanguage">{this.props.languagearray[i].language}</li>
+                        <li className="cvproficiency">{this.props.languagearray[i].proficiency}</li>
 
                     </ul>
                 );
