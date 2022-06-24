@@ -15,6 +15,7 @@ import BasicQuestions from './components/BasicQuestions';
 import ProfileQuestions from './components/ProfileQuestions';
 import Profile from './components/Profile';
 import Nav from './components/Nav';
+import SavePDF from './components/SavePDF';
 
 class App extends React.Component {
   constructor(props){
@@ -99,6 +100,7 @@ class App extends React.Component {
         {/* <Language languagearray={this.state.languagearray}/> */}
         <SkillsQuestions skillarray={this.state.skillarray} submit={this.changeSkill}/>
         {/* <Skills skillarray={this.state.skillarray}/> */}
+        <SavePDF/>
         </div>
         <div className="CV">
         <Basic name={this.state.name} title={this.state.title}/>

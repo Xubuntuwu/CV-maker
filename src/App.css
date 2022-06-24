@@ -185,9 +185,11 @@ body{
 margin: 0;
 }
 .App{
+  background-color: white;
   width: 100%;
 }
 main{
+  background-color: white;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -216,6 +218,7 @@ main{
   box-shadow: 5px 15px 20px;
 }
 #leftcolumn{
+  background-color: white;
   grid-row: 2/-1;
   grid-column: 1/2;
   height: 100%;
@@ -230,6 +233,7 @@ main{
   flex-direction: column;
 }
 #cvbasic{
+  background-color: white;
   grid-column: 1/3;
   grid-row: 1/2;
 }
@@ -241,6 +245,7 @@ main{
 
 } */
 #rightcolumn{
+  background-color: white;
   height: 100%;
   grid-column: 2/3;
   grid-row: 2/3;
