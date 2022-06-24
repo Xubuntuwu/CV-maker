@@ -42,7 +42,7 @@ import html2canvas from 'html2canvas';
 
   const generatePdf =() => {
     const data = document.getElementsByClassName('CV')[0];
-    html2canvas(data, { allowTaint: true, scale: 2 }).then(canvas => {
+    html2canvas(data, { allowTaint: true, scale: 3 }).then(canvas => {
      let HTML_Width = canvas.width;
      let HTML_Height = canvas.height;
      let top_left_margin = 15;
@@ -53,7 +53,7 @@ import html2canvas from 'html2canvas';
      let totalPDFPages = Math.ceil(HTML_Height / PDF_Height) - 1;
      canvas.getContext('2d');
      let imgData = canvas.toDataURL("image/jpeg", 1.0);
-     let pdf = new jsPDF('p', 'pt', [PDF_Width, PDF_Height]);
+     let pdf = new jsPDF('p', 'pt', [PDF_Width, PDF_Height], false, false, 3);
      pdf.addImage(imgData, 'JPG', top_left_margin, top_left_margin, canvas_image_width, canvas_image_height);
      for (let i = 1; i <= totalPDFPages; i++) {
        pdf.addPage([PDF_Width, PDF_Height], 'p');
