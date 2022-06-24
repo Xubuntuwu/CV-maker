@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/CV-maker/static/css/main.a8ea4dce.css",
-    "main.js": "/CV-maker/static/js/main.ea620db7.js",
+    "main.js": "/CV-maker/static/js/main.79cc6227.js",
     "static/js/703.21cfe134.chunk.js": "/CV-maker/static/js/703.21cfe134.chunk.js",
-    "static/js/55.705f151e.chunk.js": "/CV-maker/static/js/55.705f151e.chunk.js",
+    "static/js/756.dcbe4a77.chunk.js": "/CV-maker/static/js/756.dcbe4a77.chunk.js",
     "static/media/Raleway-ExtraBoldItalic.woff": "/CV-maker/static/media/Raleway-ExtraBoldItalic.635cc5432d56146d3043.woff",
     "static/media/Raleway-BoldItalic.woff": "/CV-maker/static/media/Raleway-BoldItalic.3111e667b39d1c23fc06.woff",
     "static/media/Raleway-SemiBoldItalic.woff": "/CV-maker/static/media/Raleway-SemiBoldItalic.ecbaf2fa4fa9e2bf69c0.woff",
@@ -50,12 +50,12 @@
     "static/media/linkedin-svgrepo-com.svg": "/CV-maker/static/media/linkedin-svgrepo-com.2350a9bf3c9b140985fa.svg",
     "index.html": "/CV-maker/index.html",
     "main.a8ea4dce.css.map": "/CV-maker/static/css/main.a8ea4dce.css.map",
-    "main.ea620db7.js.map": "/CV-maker/static/js/main.ea620db7.js.map",
+    "main.79cc6227.js.map": "/CV-maker/static/js/main.79cc6227.js.map",
     "703.21cfe134.chunk.js.map": "/CV-maker/static/js/703.21cfe134.chunk.js.map",
-    "55.705f151e.chunk.js.map": "/CV-maker/static/js/55.705f151e.chunk.js.map"
+    "756.dcbe4a77.chunk.js.map": "/CV-maker/static/js/756.dcbe4a77.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8ea4dce.css",
-    "static/js/main.ea620db7.js"
+    "static/js/main.79cc6227.js"
   ]
 }
