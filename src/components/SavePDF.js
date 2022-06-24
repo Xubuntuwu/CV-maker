@@ -42,7 +42,7 @@ import html2canvas from 'html2canvas';
 
   const generatePdf =() => {
     const data = document.getElementsByClassName('CV')[0];
-    html2canvas(data, { allowTaint: true, scale: 3 }).then(canvas => {
+    html2canvas(data, { allowTaint: true, scale: 2 }).then(canvas => {
      let HTML_Width = canvas.width;
      let HTML_Height = canvas.height;
      let top_left_margin = 15;
@@ -59,7 +59,7 @@ import html2canvas from 'html2canvas';
        pdf.addPage([PDF_Width, PDF_Height], 'p');
        pdf.addImage(imgData, 'JPG', top_left_margin, -(PDF_Height * i) + (top_left_margin * 4), canvas_image_width, canvas_image_height);
      }
-      pdf.save("HTML-Document.pdf");
+      pdf.save("CV-maker.pdf");
    });
  }
     
