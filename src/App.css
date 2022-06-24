@@ -206,10 +206,10 @@ main{
 
 /* A4: 2480 x 3508 pixels */
 .CV{
-  width: 50%;
-  /* min-height: calc(700px * 3508 / 2480); */
+  width: 53%;
+  /* height: calc(688px * 3508 / 2480); */
   /* height: fit-content; */
-  /* aspect-ratio: 2480/ 3508; */
+  aspect-ratio: 2480/ 3508;
   background-color: white;
   /* border: 1px solid black; */
   display: grid;
