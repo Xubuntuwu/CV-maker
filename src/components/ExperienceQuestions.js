@@ -127,7 +127,7 @@ class ExperienceQuestions extends React.Component{
                                         <input type="text" id="workdate" value={this.state.experiencearray[i].workdate} onChange={this.handleChange}></input>
                                     </li>
                                     <li>
-                                        <label htmlFor="summary">Date of working here: </label>
+                                        <label htmlFor="summary">Summary of position: </label>
                                         <textarea id="summary" value={this.state.experiencearray[i].summary} onChange={this.handleChange}/>
                                     </li>
                                     <label>Tasks: </label>

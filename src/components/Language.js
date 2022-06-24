@@ -7,7 +7,7 @@ class Language extends React.Component{
     }
     render(){
         return(
-        <div>
+        <div id="cvlanguage">
             <h3>Languages</h3>
             {this.props.languagearray.map(function(object, i){
                 return(

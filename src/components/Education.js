@@ -8,7 +8,7 @@ class Education extends React.Component{
     }
     render(){
         return(
-            <div id="Education">
+            <div id="cveducation">
                 <h3>Education</h3>
                 {/* key={this.generateKey(`this.props.educationarray[${i}].schooldate`)} */}
                 {this.props.educationarray.map(function(object, i){

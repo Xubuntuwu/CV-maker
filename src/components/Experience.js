@@ -8,7 +8,7 @@ class Experience extends React.Component{
     }
     render(){
         return(
-            <div id="Experience">
+            <div id="cvexperience">
                 <h3>Experience</h3>
                 {this.props.experiencearray.map(function(object, i){
                     return <div key={this.generateKey(i)}>

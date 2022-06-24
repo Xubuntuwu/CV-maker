@@ -7,7 +7,7 @@ class Skills extends React.Component{
     }
     render(){
         return(
-        <div>
+        <div id="cvskills">
             <h3>Skils</h3>
             <ul>
             {this.props.skillarray.map(function(object, i){

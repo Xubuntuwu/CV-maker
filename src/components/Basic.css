@@ -1,0 +1,29 @@
+div#basicinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+#cvname{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    color: black;
+    background-color: lightskyblue;
+}
+#cvname span{
+    background-color: white;
+    padding: 0 20px 0 20px;
+}
+#cvtitle{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: darkgray;
+}
+p{
+    margin: 0;
+}

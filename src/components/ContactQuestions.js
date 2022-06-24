@@ -51,7 +51,7 @@ class ContactQuestions extends React.Component{
                                 <input type="text" id="linkedin" defaultValue={this.linkedin} onChange={this.saveInputs}></input>
                             </li>
                         </ul>
-                        <button>Submit</button>
+                        {/* <button>Submit</button> */}
                     </fieldset>
                 </form>
             </div>

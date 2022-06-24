@@ -9,7 +9,7 @@ class Contact extends React.Component{
     }
     render(){
         return(
-            <div>
+            <div id="cvcontact">
                 <h3>Contact</h3>
                 <ul>
                     <li id="cvphone" key={this.generateKey('phone')}>{this.props.phone}</li>
