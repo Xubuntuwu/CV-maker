@@ -14,6 +14,7 @@ import Basic from './components/Basic';
 import BasicQuestions from './components/BasicQuestions';
 import ProfileQuestions from './components/ProfileQuestions';
 import Profile from './components/Profile';
+import Nav from './components/Nav';
 
 class App extends React.Component {
   constructor(props){
@@ -83,6 +84,8 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
+        <Nav/>
+        <main>
         <div className="Questions">
         <BasicQuestions submit={this.changeBasic} name={this.state.name} title={this.state.title}/>
         <ProfileQuestions submit={this.changeProfile} profile={this.state.profile}/>
@@ -110,6 +113,7 @@ class App extends React.Component {
         <Experience experiencearray={this.state.experiencearray}/>
         </div>
         </div>
+        </main>
       </div>
     );
   }

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('../assets/fonts/AmaticSC-Regular.woff2') format('woff2'),
+        url('../assets/fonts/AmaticSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('../assets/fonts/AmaticSC-Bold.woff2') format('woff2'),
+        url('../assets/fonts/AmaticSC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+nav{
+    background-color: rgb(44, 170, 248);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 10px;
+    font-family: 'Amatic SC';
+}
+
+#apptitle{
+    margin: 0;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+/*        <div id="cvprofile">
+                <h3>Profile</h3>
+                <div id="cvprofiletext">
+                    {this.props.profile}
+                </div>
+            </div> */
+
+#cvprofile{
+}
+#cvprofiletext{
+    padding: 0 5% 0 10%;
+}

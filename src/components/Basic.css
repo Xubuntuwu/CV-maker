@@ -17,6 +17,7 @@ div#basicinfo{
     margin-bottom: 20px;
 }
 #cvname span{
+    display: inline-block;
     background-color: white;
     padding: 0 20px 0 20px;
 }

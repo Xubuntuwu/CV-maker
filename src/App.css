@@ -181,7 +181,13 @@
 *{
   box-sizing: border-box;
 }
+body{
+margin: 0;
+}
 .App{
+  width: 100%;
+}
+main{
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -198,18 +204,21 @@
 
 /* A4: 2480 x 3508 pixels */
 .CV{
-  aspect-ratio: 2480/ 3508;
-  width: 45%;
+  width: 50%;
+  /* min-height: calc(700px * 3508 / 2480); */
+  /* height: fit-content; */
+  /* aspect-ratio: 2480/ 3508; */
   background-color: white;
   /* border: 1px solid black; */
   display: grid;
   grid-auto-columns: 1fr 1.5fr;
-  grid-template-rows: calc(0.05 * 3508px) 1fr;
-  box-shadow: 5px 5px 30px;
+  grid-template-rows: calc(0.04 * 3508px) 1fr;
+  box-shadow: 5px 15px 20px;
 }
 #leftcolumn{
   grid-row: 2/-1;
   grid-column: 1/2;
+  height: 100%;
   border-right: 2px solid darkgray;
   display: flex;
   flex-direction: column;
@@ -232,6 +241,7 @@
 
 } */
 #rightcolumn{
+  height: 100%;
   grid-column: 2/3;
   grid-row: 2/3;
   display: flex;

@@ -17,6 +17,11 @@
             </div> */
 
 
+#cvexperience{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 #cvexperience>div>ul{
     width: fit-content;
     margin-top: 0;
